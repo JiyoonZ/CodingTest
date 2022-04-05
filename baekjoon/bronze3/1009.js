@@ -16,6 +16,7 @@ const result = input.map(v => {
     
   let pow = 1;
 
+  // 제곱근만큼 계속해서 곱하고 10으로 나눈 나머지값이 해당 컴퓨터 
   for (let j = 0; j < b; j++) {
     pow = (pow * a) % 10;
   }
