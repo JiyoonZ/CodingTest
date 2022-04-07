@@ -5,7 +5,7 @@ const rl = readline.createInterface({
 });
 
 rl.on('line', function(line){
-    console.log(line);
+    console.log(line ,'테스트');
     rl.close(); // 한 줄 입력받고 종료
 }).on('close', function(){
     process.exit();
