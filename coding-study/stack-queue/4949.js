@@ -26,6 +26,7 @@ input.pop();
 input.forEach((ele) => {
 
   let isBool = false;
+  stack = [];
 
 	// 원자 하나는 문장이므로 한글자씩 접근하기 
   for (let i = 0; i < ele.length; i++) {
@@ -43,6 +44,7 @@ input.forEach((ele) => {
         isBool = true;
         break;
       }
+      
     }
   }
 	// isBool이 true가 아니라면 즉 false 라면 (false라면 균형잡힌 문자열이였다는 의미) 
