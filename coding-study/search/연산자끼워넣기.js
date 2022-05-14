@@ -110,7 +110,7 @@ function solution(N, nums, operators) {
 
   // 1. 
   //입력받은 연산자의 갯수를 연산자로 바꿔주는 함수
-  //[1,1,1,1] => ['+','-','*','%']
+  //[1,1,1,1] => ['+','-','*','/']
   function changeOper(operators) {
     // 연산자 기호를 넣어줄 배열
     const operator = [];
