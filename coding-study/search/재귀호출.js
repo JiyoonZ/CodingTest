@@ -1,7 +1,11 @@
 const getCombinations = function (arr, selectNum) {
 	// 결과값을 넣을 빈배열
   const results = [];
-	
+	/**
+     알고리즘의 개념을 먼저 익히고 관련 문제를 풀어 팀원들에게 설명하고 질의응답을 하는 과정을 통해 제대로 공부할 수 있었고,
+     무작정 코딩테스트를 풀던 이 전과는 달리 해당문제를 풀기위해 사용할 알고리즘이 무엇인지 고민할 수 있게 되었습니다! 
+     * 
+     */
 	// 매개변수로 오는 selectNum 이 1이되는순간 조합 끝 해당 값 반환 
   if (selectNum === 1) return arr.map((value) => [value]);
 	
