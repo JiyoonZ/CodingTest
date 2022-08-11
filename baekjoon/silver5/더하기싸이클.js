@@ -34,3 +34,22 @@ function cycle(tmp) {
 }
 
 console.log(cycle(input));
+
+// 다른방법
+// let num = input;
+// let sum;
+// let count = 0;
+
+// while (true) {
+//   count++;
+//    // 10으로 나누면 첫번째 자리수
+//    // 10으로 나누 나머지 몫은 2번째 자리수
+//   sum = Math.floor(num / 10) + (num % 10);
+//   // 오른쪽 자리의 수에 * 10
+//   // 합계중 오른쪽 자리의 수는 10으로 나눈 나머지 몫
+//   num = (num % 10) * 10 + (sum % 10);
+//   if (input == num) {
+//     console.log(count);
+//     break;
+//   }
+// }
