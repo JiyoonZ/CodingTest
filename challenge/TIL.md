@@ -26,3 +26,15 @@ Math.sqrt(); // 제곱근값
 Math.pow(a, b); // a^b 한 값
 Math.abs(); // 주어진 숫자의 절대값을 반환
 ```
+
+- 문자열 관련 메소드
+
+```js
+let str = "abcdeF";
+str.toUpperCase();
+str.toLowerCase();
+
+// substring(시작인덱스 [, 종료인덱스 (생략시 끝까지)]);
+str.substring(0, 1);
+str.substring(2);
+```

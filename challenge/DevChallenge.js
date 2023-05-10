@@ -1,16 +1,31 @@
-let str = "";
-for (let i = 0; i < 5; i++) {
-  str += "string";
-}
-// console.log(str);
+let input1 = 12;
 
-let input = "aBcDeFg";
-let result = "";
-for (let x of input) {
-  if (x === x.toUpperCase()) {
-    result += x.toLowerCase();
-  } else {
-    result += x.toUpperCase();
+for (let i = 1; i < input1; i++) {
+  if (input % i === 1) {
+    console.log(i);
+    return;
   }
 }
-console.log(result);
+
+let num = 2;
+
+function solution(num) {
+  var answer = "";
+  if (num % 2 === 0) answer = "Even";
+  else answer = "Odd";
+  return answer;
+}
+
+console.log(solution(num));
+
+let input = "pPoooyY";
+// let input = "ssooooOOO";
+
+function solution(s) {
+  // var answer = true;
+  let tmp = s.toLowerCase().split("p").length;
+  let tmpX = s.toLowerCase().split("y").length;
+  return tmp === tmpX ? true : false;
+}
+
+console.log(solution(input));
