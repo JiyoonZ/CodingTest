@@ -1,8 +1,3 @@
-//13 -> 13/6 = 2 / 6+6 => 12 => 2
-//58 ->           => 5
-// 1
-// 1+1 1+6
-// 
 let N = 8;
 let count = 1;
 function waytoNum (num) {

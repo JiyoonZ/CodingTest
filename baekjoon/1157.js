@@ -1,4 +1,3 @@
-// let input = "abcde22222abcde".toString().toUpperCase();
 let input = "BBAAa".toString().toUpperCase();
 // 배열을 순회하면서 알파벳인 경우에만 추출
 let temp_arr = input.split("").map((item)=> {
