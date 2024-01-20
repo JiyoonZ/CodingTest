@@ -37,4 +37,34 @@ str.toLowerCase();
 // substring(시작인덱스 [, 종료인덱스 (생략시 끝까지)]);
 str.substring(0, 1);
 str.substring(2);
+
+
+// 문자열 반복 
+str.repeat(2); 
+```
+
+
+### every() 메소드
+- 원소의 모든 값이 기준에 충족할때 true
+  - 숫자를 문자열 배열로 만든후 해당 숫자가 5또는 0인 것만 있는지 검사 
+```js
+  let arr = String(i)
+  console.log([...arr]);
+  if (![...arr].every(x => x == 0 || x == 5)) {
+      continue;
+  }
+
+```
+
+### 문자열 > 배열, repeat 
+
+```js
+
+function solution(myString, n) {
+    var answer = "";
+    answer = [...myString].map((e) => {
+        return e.repeat(n);
+    }).join("");
+    return answer;
+}
 ```
